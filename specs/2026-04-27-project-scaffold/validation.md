@@ -17,6 +17,7 @@
 - `src/app/` exists and contains the App Router layout and home page.
 - `src/components/` exists (may be empty or contain a placeholder).
 - `src/lib/` exists (may be empty or contain a placeholder).
+- `tests/` exists at the project root and contains all test files.
 - `specs/` remains at the project root, outside `src/`.
 
 ### 4. Linting passes
@@ -31,7 +32,12 @@
 
 - `npx tsc --noEmit` exits with code 0 (no type errors).
 
-### 7. Clean repo
+### 7. Tests pass
+
+- `npm test` exits with code 0.
+- At least one smoke test exists and passes.
+
+### 8. Clean repo
 
 - No leftover default `create-next-app` boilerplate (stock images, example API routes, default CSS that isn't used).
 - `package.json` contains only the dependencies actually needed.

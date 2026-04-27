@@ -17,7 +17,7 @@ Set up the foundational project structure, tooling, and a minimal running app. N
 | Package manager          | npm                             | Default Node.js package manager; no extra install needed.                   |
 | Node version enforcement | None                            | Skipped for now; may revisit later.                                         |
 | Pre-commit hooks         | None                            | Skipped for now to keep Phase 1 lean.                                       |
-| Test runner              | None                            | Deferred to a later phase.                                                  |
+| Test runner              | Vitest                          | Fast, Vite-native runner; matches tech-stack spec.                          |
 
 ## Context
 

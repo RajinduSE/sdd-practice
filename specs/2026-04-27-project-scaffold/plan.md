@@ -41,7 +41,15 @@
 - Display the clinic name ("AgentClinic") and a tagline.
 - Apply basic Tailwind styling so the page doesn't look broken.
 
-## 7. Verify & Clean Up
+## 7. Install & Configure Vitest
+
+- Install Vitest and `@vitejs/plugin-react` as dev dependencies.
+- Create `vitest.config.ts` with React plugin and path aliases matching `tsconfig.json`.
+- Add `test` and `test:watch` scripts to `package.json`.
+- Create a root-level `tests/` directory for all test files (tests live outside `src/`).
+- Write a smoke test to verify the test runner works (e.g., assert `1 + 1 === 2`).
+
+## 8. Verify & Clean Up
 
 - Run `npm run dev` — confirm the dev server starts and the placeholder page renders.
 - Run `npm run lint` — confirm zero warnings / errors.

@@ -22,6 +22,10 @@
 
 - **SQLite** — lightweight, file-based relational database. Zero configuration, easy to reset during development and demos.
 
+## Testing
+
+- **Vitest** — fast, Vite-native unit and integration test runner. Used for validation tests across all phases.
+
 ## Tooling
 
 - **ESLint** — linting.
