@@ -34,12 +34,13 @@
   - `src/components/footer.tsx` — copyright line and clinic tagline.
   - `src/components/main-content.tsx` — wraps page content in a `<main>` with consistent padding and min-height.
 - Compose them in the root layout (`src/app/layout.tsx`) so every page inherits header/main/footer.
+- Use mobile-first responsive Tailwind classes (e.g., `px-4 sm:px-6`, `py-3 sm:py-4`) so the layout adapts from small to large screens.
 
 ## 6. Build Placeholder Home Page
 
 - Replace the default Next.js home page with a minimal placeholder.
 - Display the clinic name ("AgentClinic") and a tagline.
-- Apply basic Tailwind styling so the page doesn't look broken.
+- Apply responsive Tailwind styling (mobile-first) so the page looks good at every viewport width.
 
 ## 7. Install & Configure Vitest
 

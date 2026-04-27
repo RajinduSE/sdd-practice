@@ -10,6 +10,7 @@ Small, incremental phases. Each phase should be shippable on its own.
 - Configure ESLint, Prettier, and `tsconfig`.
 - Set up Vitest for testing.
 - Set up folder structure (`src/app/`, `src/components/`, `src/lib/`, `specs/`).
+- Establish responsive, mobile-first layout foundations with Tailwind CSS.
 - Verify dev server runs and a placeholder home page renders.
 
 ## Phase 2 — Data Models & Database
@@ -28,16 +29,18 @@ Small, incremental phases. Each phase should be shippable on its own.
 
 - Authenticated staff layout.
 - Views: agent list, appointment list, ailment/therapy management.
+- Responsive tables/lists that work on mobile and desktop.
 - Wire dashboard to the API.
 
 ## Phase 5 — Agent-Facing Booking UI
 
 - Public-facing pages: browse ailments, view therapies, book an appointment.
+- Responsive booking flow optimized for both mobile and desktop.
 - Confirmation and status pages.
 
 ## Phase 6 — Polish & Marketing Page
 
 - Landing / marketing page with branding and copy.
-- Responsive design pass.
+- Final responsive design audit across all viewports.
 - Accessibility review.
 - Final QA and deploy.

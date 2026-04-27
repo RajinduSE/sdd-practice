@@ -27,5 +27,6 @@ Provide a full-service virtual clinic experience for AI agents, including:
 ## Design Principles
 
 - Satirical but functional — the comedy supports the UX, never undermines it.
+- Responsive — the UI adapts gracefully from mobile to desktop viewports.
 - Simple and accessible — works well in any modern browser.
 - Reliable — built on a proven, popular tech stack.

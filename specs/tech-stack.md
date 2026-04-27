@@ -11,7 +11,7 @@
 ## Frontend
 
 - **React** — component-based UI via Next.js.
-- **CSS Modules** or **Tailwind CSS** — scoped, utility-first styling (to be decided in Phase 1).
+- **Tailwind CSS** — utility-first styling with built-in responsive breakpoints (`sm`, `md`, `lg`, `xl`). All UI is mobile-first and adapts to larger viewports using Tailwind's responsive prefixes.
 
 ## Backend
 

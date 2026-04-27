@@ -11,6 +11,7 @@
 
 - The home page displays the clinic name ("AgentClinic") and a tagline.
 - The page is styled with Tailwind CSS (not raw unstyled HTML).
+- The layout is responsive: header, content, and footer adapt from mobile (≈320 px) to desktop (≈1280 px) without horizontal overflow or broken alignment.
 
 ### 3. Folder structure is correct
 

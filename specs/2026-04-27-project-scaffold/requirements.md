@@ -11,7 +11,7 @@ Set up the foundational project structure, tooling, and a minimal running app. N
 | Framework                | Next.js (App Router)            | Full-stack React framework; matches tech-stack spec.                        |
 | Language                 | TypeScript                      | End-to-end type safety; matches tech-stack spec.                            |
 | Source directory         | `src/`                          | All application source code lives under `src/` to keep the repo root clean. |
-| Styling                  | Tailwind CSS                    | Utility-first, fast iteration, widely adopted.                              |
+| Styling                  | Tailwind CSS (mobile-first)     | Utility-first with responsive breakpoints; all components are mobile-first. |
 | Linting                  | ESLint (`next/core-web-vitals`) | Ships with Next.js; covers React + accessibility rules.                     |
 | Formatting               | Prettier                        | Consistent style with zero debates.                                         |
 | Package manager          | npm                             | Default Node.js package manager; no extra install needed.                   |
