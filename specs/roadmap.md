@@ -8,7 +8,7 @@ Small, incremental phases. Each phase should be shippable on its own.
 
 - Initialize Next.js project with TypeScript.
 - Configure ESLint, Prettier, and `tsconfig`.
-- Set up folder structure (`app/`, `components/`, `lib/`, `specs/`).
+- Set up folder structure (`src/app/`, `src/components/`, `src/lib/`, `specs/`).
 - Verify dev server runs and a placeholder home page renders.
 
 ## Phase 2 — Data Models & Database
