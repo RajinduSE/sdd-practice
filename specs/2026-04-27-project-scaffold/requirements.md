@@ -6,18 +6,18 @@ Set up the foundational project structure, tooling, and a minimal running app. N
 
 ## Decisions
 
-| Decision | Choice | Rationale |
-|----------|--------|-----------|
-| Framework | Next.js (App Router) | Full-stack React framework; matches tech-stack spec. |
-| Language | TypeScript | End-to-end type safety; matches tech-stack spec. |
-| Source directory | `src/` | All application source code lives under `src/` to keep the repo root clean. |
-| Styling | Tailwind CSS | Utility-first, fast iteration, widely adopted. |
-| Linting | ESLint (`next/core-web-vitals`) | Ships with Next.js; covers React + accessibility rules. |
-| Formatting | Prettier | Consistent style with zero debates. |
-| Package manager | npm | Default Node.js package manager; no extra install needed. |
-| Node version enforcement | None | Skipped for now; may revisit later. |
-| Pre-commit hooks | None | Skipped for now to keep Phase 1 lean. |
-| Test runner | None | Deferred to a later phase. |
+| Decision                 | Choice                          | Rationale                                                                   |
+| ------------------------ | ------------------------------- | --------------------------------------------------------------------------- |
+| Framework                | Next.js (App Router)            | Full-stack React framework; matches tech-stack spec.                        |
+| Language                 | TypeScript                      | End-to-end type safety; matches tech-stack spec.                            |
+| Source directory         | `src/`                          | All application source code lives under `src/` to keep the repo root clean. |
+| Styling                  | Tailwind CSS                    | Utility-first, fast iteration, widely adopted.                              |
+| Linting                  | ESLint (`next/core-web-vitals`) | Ships with Next.js; covers React + accessibility rules.                     |
+| Formatting               | Prettier                        | Consistent style with zero debates.                                         |
+| Package manager          | npm                             | Default Node.js package manager; no extra install needed.                   |
+| Node version enforcement | None                            | Skipped for now; may revisit later.                                         |
+| Pre-commit hooks         | None                            | Skipped for now to keep Phase 1 lean.                                       |
+| Test runner              | None                            | Deferred to a later phase.                                                  |
 
 ## Context
 

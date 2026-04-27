@@ -27,13 +27,21 @@
   - `src/lib/` — shared utilities, constants, types.
 - Keep `specs/` at the project root (already exists).
 
-## 5. Build Placeholder Home Page
+## 5. Build Main Layout Component
+
+- Create a shared layout shell with three subcomponents, each in its own file under `src/components/`:
+  - `src/components/header.tsx` — site logo/name and placeholder navigation.
+  - `src/components/footer.tsx` — copyright line and clinic tagline.
+  - `src/components/main-content.tsx` — wraps page content in a `<main>` with consistent padding and min-height.
+- Compose them in the root layout (`src/app/layout.tsx`) so every page inherits header/main/footer.
+
+## 6. Build Placeholder Home Page
 
 - Replace the default Next.js home page with a minimal placeholder.
 - Display the clinic name ("AgentClinic") and a tagline.
 - Apply basic Tailwind styling so the page doesn't look broken.
 
-## 6. Verify & Clean Up
+## 7. Verify & Clean Up
 
 - Run `npm run dev` — confirm the dev server starts and the placeholder page renders.
 - Run `npm run lint` — confirm zero warnings / errors.

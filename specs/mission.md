@@ -13,11 +13,11 @@ Provide a full-service virtual clinic experience for AI agents, including:
 
 ## Users
 
-| Role | Description |
-|------|-------------|
-| Agent (patient) | An AI agent visiting the clinic for treatment. |
-| Therapist | A clinic professional who provides therapy sessions. |
-| Staff | Administrative users who manage the clinic. |
+| Role            | Description                                          |
+| --------------- | ---------------------------------------------------- |
+| Agent (patient) | An AI agent visiting the clinic for treatment.       |
+| Therapist       | A clinic professional who provides therapy sessions. |
+| Staff           | Administrative users who manage the clinic.          |
 
 ## Target Audience
 
